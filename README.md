@@ -1,73 +1,59 @@
-# React + TypeScript + Vite
+# 📚 Book Wrap 2025
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sebuah aplikasi **Book Wrap interaktif** yang mengubah statistik membaca menjadi **aura pembaca** lengkap dengan deskripsi, tags, dan *roast receh tapi relate*.
 
-Currently, two official plugins are available:
+Dibuat untuk refleksi akhir tahun, seru-seruan, dan sedikit *self-awareness* soal kebiasaan baca kamu 😌📖
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Built with 💻 by @moktadikta (Instagram)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 🔮 **Aura Algorithm**  
+  Menentukan persona membaca berdasarkan:
+  - Total buku dibaca
+  - Rata-rata jumlah halaman
+  - Rata-rata rating
+  - Jumlah TBR
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- 🏷️ **Reader Aura Cards**  
+  Setiap aura punya:
+  - Nama unik
+  - Deskripsi yang relate
+  - Tags khas
+  - Roast ala **denda / pajak / penalti**
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- 🎨 **Visual Story Slides**  
+  Desain colorful, playful, dan siap dibagikan ke IG Story
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- 😎 **Gen Z Tone**  
+  Santai, nyeleneh, tapi tetap hangat & afirmatif
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🧠 Example Auras
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Beberapa aura yang bisa kamu dapatkan:
+- **COZY COLLECTOR** — niat baca kuat, TBR lebih kuat
+- **DEEP DIVER** — sedikit buku, tapi tebal & serius
+- **SPEEDY SKEPTIC** — banyak baca, susah puas
+- **THOROUGH ENJOYER** — buku tebal + rating tinggi terus
+- **SOFT ENTHUSIAST** — gampang jatuh cinta sama cerita
+- **BALANCED REALIST** — objektif, anti hype
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+
+## 🚀 Tech Stack
+
+- React + TypeScript
+- Tailwind CSS
+- Framer Motion
+- Lucide Icons
+- PapaParse
+- html2canvas
+
+---
+
+## 🛡️ Privasi
+Aplikasi ini berjalan sepenuhnya di sisi klien (client-side). Data CSV kamu tidak pernah diunggah ke server mana pun. Kami menghormati privasi bacaanmu! 😉
