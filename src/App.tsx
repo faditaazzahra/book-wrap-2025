@@ -1,7 +1,7 @@
 // 1. Tambah useRef di import React
 import React, { useState, useEffect, useCallback, useRef } from 'react';
 import Papa from 'papaparse';
-import { Upload, BookOpen, Star, X, Trophy, Calendar, Sparkles, Layers, Library, Crown, Medal, Download } from 'lucide-react';
+import { Upload, BookOpen, Star, X, Trophy, Sparkles, Layers, Library, Crown, Medal } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import html2canvas from 'html2canvas';
 
@@ -191,21 +191,6 @@ function App() {
         return;
     }
     if (e.target.files?.[0]) processCSV(e.target.files[0], source);
-  };
-
-  const handleDownloadImage = async () => {
-    if (printRef.current) {
-      const canvas = await html2canvas(printRef.current, {
-        scale: 3,
-        useCORS: true,
-        backgroundColor: "#1a1a1a",
-      });
-      const image = canvas.toDataURL("image/png");
-      const link = document.createElement("a");
-      link.href = image;
-      link.download = `BookWrap2025-${username || 'User'}-Slide${currentSlide + 1}.png`;
-      link.click();
-    }
   };
 
   // --- STATS CALCULATION ---
