@@ -4,6 +4,8 @@ Sebuah aplikasi **Book Wrap interaktif** yang mengubah statistik membaca menjadi
 
 Dibuat untuk refleksi akhir tahun, seru-seruan, dan sedikit *self-awareness* soal kebiasaan baca kamu 😌📖
 
+Built with 💻 by @moktadika (instagram)
+
 ---
 
 ## ✨ Features
@@ -50,3 +52,8 @@ Beberapa aura yang bisa kamu dapatkan:
 - Lucide Icons
 - PapaParse
 - html2canvas
+
+---
+
+## 🛡️ Privasi
+Aplikasi ini berjalan sepenuhnya di sisi klien (client-side). Data CSV kamu tidak pernah diunggah ke server mana pun. Kami menghormati privasi bacaanmu! 😉
