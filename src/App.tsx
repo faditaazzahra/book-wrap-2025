@@ -3,7 +3,6 @@ import React, { useState, useEffect, useCallback, useRef } from 'react';
 import Papa from 'papaparse';
 import { Upload, BookOpen, Star, X, Trophy, Sparkles, Layers, Library, Crown, Medal } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
-import html2canvas from 'html2canvas';
 
 // --- Tipe Data ---
 interface BookData {
