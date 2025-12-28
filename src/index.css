@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Scrollbar klasik ala Y2K Library */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #fffbeb; /* Warna kertas (Amber-50) */
+}
+::-webkit-scrollbar-thumb {
+  background: #1e3a8a; /* Warna biru tua (Blue 900) */
+  border: 2px solid #fffbeb;
+}
