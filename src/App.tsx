@@ -252,7 +252,7 @@ function App() {
         name: "COZY COLLECTOR",
         desc: "Kamu sering nambah buku bukan karena butuh, tapi karena takut lupa pengen baca. TBR kamu isinya mimpi-mimpi kecil: “abis ini”, “kalau lagi tenang”, “pas mood-nya dapet”. Setiap buku tuh janji manis ke diri sendiri—dan kamu tulus banget waktu bikin janjinya. Soal kapan ditepati… ya itu urusan nanti.",
         color1: "#A3E635", color2: "#FBBF24", icon: <Library size={48} className="text-white"/>,
-        tags: ["#TsundokuLife", "#BookHaulQueen", "#NantiAjaBacanya"],
+        tags: ["#TsundokuLife", "#BeliDulu", "#NantiAjaBacanya"],
         roast: "DENDA PENIMBUNAN (Buku numpuk tapi cuma jadi pajangan)"
       };
     }
@@ -261,7 +261,7 @@ function App() {
         name: "DEEP DIVER",
         desc: "Kamu bukan tipe yang asal nambah buku biar rak terlihat penuh. Setiap buku yang kamu pilih itu berat, tebal, dan butuh komitmen. Membaca bagimu bukan sekadar hiburan, tapi perjalanan panjang—kadang bikin melek semalaman, kadang bikin nangis di kereta. Jumlah buku sedikit? Gapapa. Kualitas pengalamanmu jauh lebih dalam daripada sekadar angka.",
         color1: "#1E3A8A", color2: "#000000", icon: <BookOpen size={48} className="text-white"/>,
-        tags: ["#HilangDariPeradaban", "#AcademicWeapon", "#AntiBukuTipis"],
+        tags: ["#HilangDariPeradaban", "#CommitmentIssuesSolved", "#NoSkimmingZone"],
         roast: "BIAYA SEWA GUA (Kelamaan menghilang dari realita)"
       };
     }
@@ -270,7 +270,7 @@ function App() {
         name: "SPEEDY SKEPTIC",
         desc: "Kamu tipe pembaca yang doyan banyak buku, tapi nggak gampang terkesan. Buku cepat habis, tapi hati-hati banget kasih nilai—tidak semua cerita langsung “klik”. Setiap buku yang selesai dibaca adalah pengalaman, bukan kemenangan. Rakmu penuh, tapi ratingmu realistis: kamu bukan orang yang kasih jempol cuma karena buku itu populer. Kamu pembaca yang jujur, kritis, dan always on the move.",
         color1: "#3B82F6", color2: "#EF4444", icon: <Sparkles size={48} className="text-white"/>,
-        tags: ["#SpeedRun", "#NoMercy", "#KritikusHandal"],
+        tags: ["#SpeedRead", "#PlotArmorDetective", "#KritikusHandal"],
         roast: "PENALTI SPEEDRUN (Baca cepat tapi tetap kritis)"
       };
     }
@@ -279,7 +279,7 @@ function App() {
         name: "THOROUGH ENJOYER",
         desc: "Kamu bukan tipe pembaca yang asal lari dari satu buku ke buku lain. Kamu membaca dengan serius, menikmati tiap halaman, dan selalu menemukan sesuatu yang berharga. Buku tebal bukan halangan—justru itu tantangan yang kamu nikmati. Rating tinggi bukan karena mudah terkesan, tapi karena kamu sungguh-sungguh menghargai kualitas cerita. Membaca bagimu itu bukan sekadar kebiasaan, tapi pengalaman mendalam yang bikin setiap buku terasa berarti.",
         color1: "#7E22CE", color2: "#EC4899", icon: <BookOpen size={48} className="text-white"/>,
-        tags: ["#HighClass", "#SastraVibes", "#OtakMahal"],
+        tags: ["#DepthOverSpeed", "#SavorEveryPage", "#InTooDeep"],
         roast: "DENDA GOODVIBES (Baca 350+ halaman tapi rating tetap 4+, mana bisa dipercaya?)"
       };
     }
@@ -288,7 +288,7 @@ function App() {
         name: "SOFT ENTHUSIAST",
         desc: "Kamu tipe pembaca yang gampang jatuh cinta sama cerita. Selalu nemu something to appreciate di tiap buku—entah satu kalimat, satu karakter, atau satu perasaan yang nyantol. Bukan karena bukunya selalu sempurna, tapi karena kamu baca pakai hati, bukan kalkulator. Rating >4 itu bukan lebay, itu tanda kamu menikmati proses, bukan cuma hasil.",
         color1: "#FACC15", color2: "#FB923C", icon: <Star size={48} className="text-white"/>,
-        tags: ["#FullSenyum", "#ComfortRead", "#HealingEra"],
+        tags: ["#SoftHeartReader", "#ComfortRead", "#EasilyAttached"],
         roast: "BIAYA KEPUASAN (Gampang jatuh cinta sama buku)"
       };
     }
@@ -296,7 +296,7 @@ function App() {
       name: "BALANCED REALIST",
       desc: "Objektif dan membumi. Nggak gampang kemakan hype, penilaianmu selalu adil. Teman curhat buku terbaik.",
       color1: "#60A5FA", color2: "#94A3B8", icon: <Layers size={48} className="text-white"/>,
-      tags: ["#LogikaJalan", "#AntiHalu", "#StayReal"],
+      tags: ["#FairReader", "#StayObjective", "#NoOverrate"],
       roast: "BIAYA ADMIN (Hidup terlalu straight, tapi ya aman)"
     };
   };
